@@ -1,0 +1,10 @@
+syntax = "proto2";
+
+package Exercise3;
+
+option java_multiple_files=true;
+
+message HandshakeMessage {
+  required int32 id = 1;
+  required bool error = 2;
+}
